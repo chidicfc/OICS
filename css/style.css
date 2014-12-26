@@ -2269,7 +2269,7 @@ blockquote span {
 .box-top .more-btn{
 	display:table;
 	margin: 30px auto 0;
-	background:#fff;
+	background:#FF2626;
 	padding:10px 15px;
 	text-transform:uppercase;
 	font-size:11px
@@ -2366,7 +2366,6 @@ blockquote span {
 .service-box-2 p.mediumFont {
 	overflow: hidden;
 	max-height: 180px;
-	border-bottom:1px #eee solid;
 	padding-bottom:25px !important
 }
 /* ---- 7.2.3. Services boxes style 3 ---------------- */
@@ -3354,6 +3353,23 @@ button.skew-25 i {
 .title-1 .breadcrumbs{
 	background-color:#777 !important
 }
+
+.services .breadcrumbs{
+	background-color:#777 !important
+}
+
+.contactus .breadcrumbs{
+	background-color:#777 !important
+}
+
+.privacy .breadcrumbs{
+	background-color:#777 !important
+}
+
+.terms .breadcrumbs{
+	background-color:#777 !important
+}
+
 .breadcrumbs a {
 	float: left;
 	margin: 0 3px;
@@ -5060,10 +5076,65 @@ img.loader{
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+
+.services {
+	background: #fff url('../images/page-titles/services.png') no-repeat 50% 50%;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.contactus {
+	background: #fff url('../images/page-titles/contactus.jpg') no-repeat 50% 50%;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.privacy {
+	background: #fff url('../images/page-titles/privacy.jpg') no-repeat 50% 50%;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.terms {
+	background: #fff url('../images/page-titles/terms_conditions.jpg') no-repeat 50% 50%;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
 .title-1 h1 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+.services h1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.contactus h1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.privacy h1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.terms h1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 .empty-title {
 	padding-bottom: 50px;
 }

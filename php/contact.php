@@ -6,8 +6,8 @@ if($_POST){
     $message=$_POST['message'];
  
 if(isset($_POST['email'])) {
-    $email_to = "joatlocal@yahoo.com";
-    $email_subject = "Email From Centrum Site ";
+    $email_to = "info@oicsgroupng.com";
+    $email_subject = "OICS contact form";
     function died($error) {
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
         echo "These errors appear below.<br /><br />";
